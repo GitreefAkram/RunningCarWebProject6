@@ -1,0 +1,32 @@
+#back {
+  background: url(images/back-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: auto;
+  height: 600px;
+}
+#road {
+  background: url(images/road.jpg);
+}
+#car {
+  width: 150px;
+}
+#btn {
+  background-color: yellow;
+  width: 100px;
+  font-size: 20px;
+  border: none;
+  text-align: center;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 20px;
+}
+#button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#btn:hover {
+  cursor: pointer;
+}
